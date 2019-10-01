@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap');
+h5, .entry-content h5, .entry-content h5 a {
+    font-weight: 400;
+    font-family: 'Herr Von Muellerhoff', handwriting;
+    text-transform: inherit; 
+    font-size: 40px;
+}

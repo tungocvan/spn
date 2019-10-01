@@ -1,0 +1,116 @@
+a.hl-mobile {
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 24px;
+}
+a.hl-mobile i {
+    color: #004274;
+}
+.logo-dd{
+    position: absolute;
+    top: 0px;
+    padding: 5px 0px;
+    width: calc(100% - 75px);
+    right: 40px;
+}
+.logo-dd img{
+    height: 40px;
+    margin:auto;
+}
+.menu-responsive{
+    display: none;
+    background: #ffffff;
+    padding:4px 15px;
+    position: relative;
+    box-shadow: 0px 0px 10px #666666;
+}
+.menu-responsive a.a-menu {
+    line-height: 43px;
+    color: #004274;
+    font-size: 20px;
+    z-index: 3;
+}
+.aside {
+  min-width: 300px;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fafafa;
+  font-family: Helvetica, Arial, sans-serif;
+  border-right: 1px solid #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  width: 0px;
+  min-width: 0px;
+  overflow: hidden;
+  transition: 0.35s width ease, 0.35s min-width ease;
+}
+.aside .aside-header i{
+  font-size: 20px;
+}
+.aside .aside-header {
+  background-color: #005a9f;
+  line-height: 51px;
+  padding: 0px 15px;
+  color: #fff;
+}
+.aside-header span{
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: none;
+    padding:15px 0px;
+}
+.aside .aside-header .close {
+  float: right;
+  cursor: pointer;
+}
+.aside-contents ul li {
+    border-bottom: 1px solid #e1e1e1;
+    text-align: left;
+    line-height: 38px;
+}
+.aside-contents ul li a, ul.cd-accordion-menu label{
+  text-transform: uppercase;
+  padding: 0px 15px;
+  font-size: 15px;
+}
+.aside-contents ul li ul li:last-child{
+  border: none;
+  padding-bottom: 0px;
+}
+.aside-contents ul li ul{
+  border-top: 1px solid #e1e1e1;
+}
+.aside-contents ul li ul li{
+  padding-left: 15px;
+}
+.aside-contents ul li ul li a{
+  text-transform: none;
+}
+.aside.in {
+  width: 15%;
+  min-width: 300px;
+}
+
+.aside-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+  transition: 0.2s opacity ease;
+  opacity: 0;
+  display: none;
+}
+
+.aside-backdrop.in {
+  display: block;
+  opacity: 0.5;
+}
