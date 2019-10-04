@@ -409,6 +409,7 @@ p.info-i a{
 .rowSupport img, .rightRow{
     display: inline-block;
     vertical-align: middle;
+    padding-right:5px;
 }
 .rightRow span{
     color: #0677d4;
@@ -606,7 +607,7 @@ p.info-i a{
     line-height: 24px;
 }
 .scholarship-ItemRight {
-    width: 50%;
+    width: 100%;
     float: left;
 }
 .scholarship-ItemRight:first-child{
