@@ -73,10 +73,11 @@ a.hl-mobile i {
     border-bottom: 1px solid #e1e1e1;
     text-align: left;
     line-height: 38px;
+    padding-left: 10px;
 }
 .aside-contents ul li a, ul.cd-accordion-menu label{
   text-transform: uppercase;
-  padding: 0px 15px;
+  padding: 0px;
   font-size: 15px;
 }
 .aside-contents ul li ul li:last-child{
