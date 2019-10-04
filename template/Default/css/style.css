@@ -318,8 +318,8 @@ p.info-i a{
     background: #dc0606;
     text-align: center;
     position: fixed;
-    bottom: 40px;
-    right: 0px;
+    bottom: 50px;
+    right: 10px;
     cursor: pointer;
     display: none;
     color: #fff;
