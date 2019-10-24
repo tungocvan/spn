@@ -1150,14 +1150,14 @@ p.title-footmsg {
 }
 .info-hoithao a{
     padding: 15px;
-    background: rgba(0,75,60,.9);
+    background: rgba(0,75,186,.9);
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     display: block;
 }
 .info-hoithao p{
-    background: rgba(178,210,52,.7);
+    background: rgba(0,75,120,.9);
     padding:8px 15px;
     margin:0;
 }
@@ -1272,3 +1272,72 @@ table{
 				margin-bottom: 50px;
 			}
 		}
+        .AppMail {
+            max-width: 500px;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+          .AppMail p, .donhang p {
+            text-align: center;
+            font-weight: 500;
+          }
+          .donhang p{
+            padding-top: 15
+          }
+          .AppMail h2 {
+            text-align: center;
+            color:'#610703';
+            font-weight: 700;
+          }
+          .AppMail label {
+            text-align: left!important;
+            color:'#610703';
+            font-weight: 500;
+          }
+          
+          .AppMail input[type=text], .AppMail input[type=email], .AppMail select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+          }
+          
+          .AppMail input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+          }
+          
+          .AppMail input[type=submit]:hover {
+              background-color: #45a049;
+          }
+          
+          .AppMail .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+          }
+          .AppMail .sucsess  {
+            margin: 20px 0;
+            border: 1px solid green;
+            padding: 7px;
+            font-weight: bold;
+          }
+          
+          .AppMail .error {
+            margin: 20px 0;
+            border: 1px solid red;
+            padding: 7px;
+            font-weight: bold;
+          }
+          .hidden{
+            display: none
+          }
